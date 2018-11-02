@@ -1,7 +1,4 @@
 name := "puzzles"
-
-version := "1.0"
-
-scalaVersion := "2.11.5"
-
-libraryDependencies += "org.scalatest" % "scalatest_2.11" % "2.2.1" % "test"
+version := "1.1"
+scalaVersion := "2.12.7"
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.1" % "test"
